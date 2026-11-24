@@ -8,56 +8,56 @@ This application provides role-based dashboards for **Admin, Manager, and Employ
 
 
 
-## 🚀 Features
+## Features
 
-- 🔐 **Authentication & Authorization**
+- **Authentication & Authorization**
   - Login, Signup, and Role-based access (Admin, Manager, Employee)
   - Protected routes with JWT/Firebase
 
-- 📊 **Dashboards**
+- **Dashboards**
   - **Admin Dashboard**: Manage employees, projects, and overall reports
   - **Manager Dashboard**: Track team progress, assign tasks, and view reports
   - **Employee Dashboard**: Manage profile, view tasks, submit leaves, and time tracking
 
-- 👥 **Employee Management**
+- **Employee Management**
   - Add, edit, and manage employee records
   - Role-based permissions
 
-- 📂 **Project & Task Management**
+- **Project & Task Management**
   - Assign projects to teams
   - Track tasks and deadlines
   - Gantt charts for project progress
 
-- 📢 **Notifications**
+- **Notifications**
   - In-app notification panel
   - Alerts for tasks, deadlines, and updates
 
-- 🕒 **Time Tracking**
+- **Time Tracking**
   - Employee attendance and work hours monitoring
 
 ---
 
-## 🖼️ Screenshots
+## Screenshots
 
-### 🔑 Authentication
+### Authentication
 ![Login Page](<img width="1917" height="867" alt="image" src="https://github.com/user-attachments/assets/75be8cf5-1e47-4df0-a82d-2c1f4703768d" />)
 
-### 🛠️ Admin Dashboard
+### Admin Dashboard
 ![Admin Dashboard](<img width="1919" height="871" alt="image" src="https://github.com/user-attachments/assets/3a89af66-3a01-4034-85a7-670ec551b551" />)
 
-### 👨‍💼 Manager Dashboard
+### Manager Dashboard
 ![Manager Dashboard](<img width="1918" height="869" alt="image" src="https://github.com/user-attachments/assets/87e803e2-9bfb-476c-aac7-72956635beae" />)
 
-### 👩‍💻 Employee Dashboard
+### Employee Dashboard
 ![Employee Dashboard](<img width="1913" height="873" alt="image" src="https://github.com/user-attachments/assets/4b094c2b-05f4-4fba-8d3c-7bf133d09abc" />)
 
-### 📊 Project Tracking (Gantt Chart)
+### Project Tracking (Gantt Chart)
 ![Gantt Chart](./screenshots/gantt.png)
 
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 **Frontend:**
 - React + TypeScript
@@ -75,7 +75,7 @@ This application provides role-based dashboards for **Admin, Manager, and Employ
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 
@@ -105,21 +105,21 @@ manpower/
 
 ---
 
-## ⚙️ Installation & Setup
+## Installation & Setup
 
-### 1️⃣ Clone the repository
+### 1Clone the repository
 ```bash
 git clone https://github.com/your-username/manpower.git
 cd manpower
 ````
 
-### 2️⃣ Install dependencies
+### 2Install dependencies
 
 ```bash
 npm install
 ```
 
-### 3️⃣ Set up environment variables
+### 3Set up environment variables
 
 Create a `.env` file in the root directory:
 
@@ -133,13 +133,13 @@ FIREBASE_MESSAGING_SENDER_ID=your_messaging_sender_id
 FIREBASE_APP_ID=your_firebase_app_id
 ```
 
-### 4️⃣ Run the development server
+### 4Run the development server
 
 ```bash
 npm run dev
 ```
 
-### 5️⃣ Build for production
+### 5Build for production
 
 ```bash
 npm run build
@@ -147,7 +147,7 @@ npm run build
 
 ---
 
-## 📖 Usage
+## Usage
 
 * **Admin**: Manage employees, assign projects, and generate reports
 * **Manager**: Assign tasks, track project timelines, and monitor team performance
@@ -155,7 +155,7 @@ npm run build
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repo
 2. Create a new branch (`git checkout -b feature-branch`)
@@ -165,7 +165,7 @@ npm run build
 
 ---
 
-## 📜 License
+## License
 
 This project is licensed under the **MIT License**.
 Feel free to use and modify as per your needs.
